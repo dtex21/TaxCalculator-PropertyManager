@@ -1,0 +1,79 @@
+body {
+  font-family: arial;
+  color: #373737;
+  background-color: #DCD0C0;
+}
+
+#contlogin, #contsignup {
+  margin-right: 40%;
+  margin-left: 40%;
+  margin-top: 5%;
+  padding: 1%;
+  background-color: #DCD0C0;
+  text-align: center;
+}
+
+#divlogin, #divsignup {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(211, 211, 211, 0.8);
+  padding-top: 5%;
+  height: 100%;
+  width: 100%;
+}
+
+#infodiv {
+  float: left;
+  width: 49%;
+  height: 98vh;
+  padding-right: 1%;
+  border-right: 1px solid black;
+}
+
+#buttondiv {
+  float: right;
+  width: 47%;
+  padding-left: 1%;
+}
+
+#loginbtn {
+  float: left;
+  margin-top: 45%;
+  display: block;
+  background-color: #C0B283;
+  width: 160px;
+  padding: 16px;
+  border: none;
+}
+
+#signupbtn {
+  float: left;
+  margin-top: 25%;
+  position: absolute;
+  display: block;
+  background-color: #C0B283;
+  width: 160px;
+  padding: 16px;
+  border: none;
+}
+
+#info {
+  margin-top: 50%;
+  float: right;
+}
+
+#submitlogin, #submitsignup {
+  display: block;
+  background-color: #C0B283;
+  width: 120px;
+  padding: 16px;
+  border: none;
+  margin: auto;
+}
+
+#password, #passwordSU {
+  margin-bottom: 10px;
+}
