@@ -4,7 +4,7 @@ header('Content-Type:application/json');
 $json_string = file_get_contents('php://input');
 $obj = json_decode($json_string, true);
 
-$con = new mysqli('127.0.0.1', 'ma11182', 'qvaifo', 'ma11182') or die("Σφάλμα σύνδεσης: " . $con->connect_error);
+$con = new mysqli('127.0.0.1', 'db_username', 'db_password', 'db_name') or die("Σφάλμα σύνδεσης: " . $con->connect_error);
 mysqli_set_charset($con, "utf8");
 
 $usr = $obj['username'];
