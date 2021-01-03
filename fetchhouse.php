@@ -2,7 +2,7 @@
 session_start();
 header('Content-Type: application/json');
 
-$con = new mysqli('127.0.0.1', 'ma11182', 'qvaifo', 'ma11182') or die ('Σφάλμα σύνδεσης: '.$con->connect->error);
+$con = new mysqli('127.0.0.1', 'db_username', 'db_password', 'db_name') or die ('Σφάλμα σύνδεσης: '.$con->connect->error);
 //Θέτουμε την κωδικοποίηση της σύνδεσης ως UTF-8 για σωστή καταγραφή ελληνικών στην ΒΔ
 mysqli_set_charset($con, 'utf8');
 
